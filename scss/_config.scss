@@ -1,0 +1,14 @@
+$primary-color: #c819ab;
+$secondary-color: #8dc01a;
+$light-color: #f4f4f4;
+$dark-color: #333;
+$medium-color: rgb(150, 144, 144);
+$bg-img: url("../img/forest.png");
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50%) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

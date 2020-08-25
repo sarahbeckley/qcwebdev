@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script
+      src="https://kit.fontawesome.com/a8551cf0ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+  <title>QC Web Dev | About Me</title>
+</head>
+<body>
+
+  <nav id="about-navbar">
+    <div class="container">
+      <div class="nav-flex">
+        <div class="nav-logo">
+          <a href="index.html"
+            ><img src="img/QC-logo.png" alt="Logo" class="logo"
+          /></a>
+        </div>
+        <div class="nav-company">
+          <h2>QC Web Dev</h2>
+        </div>
+        <div class="nav-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="contact-form">
+    <div class="container">
+      <h2 class="contact-section-title">Contact Me</h2>
+      <div class="bottom-line"></div>
+      <p>Submit the form below and i'll reach out within 48 hours...</p>
+
+      <div class="contact-me-form">
+        <form method="POST" data-netlify="true" method="POST" data-netlify-recaptcha="true" data-netlify="true"></form>>
+          <!-- action="process.php" -->
+          <div class="text-fields">
+            <input type="text" name="name" id="name" placeholder="Enter Name">
+            <input type="number" name="phone" id="phone" placeholder="Phone Number">
+            <input type="text" name="subject" id="subject" placeholder="Subject">
+            <input type="email" name="email" id="email" placeholder="Enter Email">
+            <textarea name="message" id="message" placeholder="Enter Message..."></textarea>
+            <div class="button-field">
+              <button name="submit" type="submit" class="btn-contact btn-dark">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-info">
+    <div class="container">
+      <form action="process.php">
+      <div class="contact-grid">
+        <div class="contact-item-email">
+          <i class="fas fa-envelope fa-2x"></i>
+          <h4>Email</h4>
+          <p>creations@qcwebdev.com</p>
+        </div>
+        <div class="contact-item-skype">
+          <a href="skype:.cid.faad9d6cef90ed66"
+            ><img src="img/skipe-button.png" alt="Skype"
+          /></a>
+          <h4>Skype</h4>
+          <p>Click The Icon...</p>
+        </div>
+        <div class="contact-item-phone">
+          <i class="fas fa-mobile-alt fa-2x"></i>
+          <h4>Phone Number</h4>
+          <p>802-923-6604</p>
+        </div>
+      </div>
+    </form>
+    </div>
+  </section>
+
+  <section id="contact-about-project">
+    <div class="container">
+      <h2>Make Your Next Project Great!</h2>
+    </div>
+  </section>
+
+  <footer id="main-footer">
+    <div class="container">
+      <div class="foot-text">
+        <p>Copyright &copy; 2020, QC Web Dev</p>
+      </div>
+      <!-- <div class="foot-social">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+      </div> -->
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
